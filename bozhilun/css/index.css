@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+.comiis_wrap960, .comiis_wrapad { margin: 0 auto; width: 1600px; }
+.comiis_wrapad { margin-top: 10px; overflow:hidden; }
+.comiis_wrapad img { margin-top: 0px; position:absolute;top:50%;left:50%;transform:translate(-50%,-50%); }
+#frameHlicAe { margin: 0!important; border: 0px !important; }
+#slidesImgs li { width: 1600px; height: 430px; display: none; }
+.frame { margin-bottom: 10px; border: 1px solid #e1e1e1; background: #ffffff; }
+.temp { margin: 1px; }
+.block { margin: 10px 0 0; position:relative; }
+.cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.cl { zoom: 1; }
+.slideshow { clear: both; }
+.slideshow li { position: relative; overflow: hidden; }
+.slidebar { position: absolute; top: 390px; left: 760px; }
+.slidebar li { background:#ffffff; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #ffffff,endColorstr = #ffffff); color: #ffffff; overflow: hidden; float: left; margin-right: 20px; width: 14px; height: 14px; border-radius:8px; line-height: 20px;  text-align: center; font-size: 10px; cursor: pointer}
+.slidebar li.on { background:#ffd800; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #ffd800,endColorstr = #ffd800); color:#ffd800; font-weight: 700; }
+
+.content_company{ width:1180px; height:600px; margin:50px auto 0; border:1px solid #27ade7}
+*html .content_company{ width:1180px; height:600px; margin:10px auto 0}
+*+html .content_company{ width:1180px; height:600px; margin:10px auto 0}
+.company{ width:1180px; height:600px} 
+.company_bg{ width:1180px; height:600px; background-repeat:round; background-image:url(../img/company_bg.jpg); opacity:0.1; filter:alpha(opacity=10)}
+.company ul{ width:1180px; height:600px; margin-top:-600px}
+.company ul li{ margin:40px 30px}
+.company ul li h2{ font-family:"Arial Black", Gadget, sans-serif; font-size:30px; font-weight:600}
+.company ul li h5{ font-size:24px; font-weight:200; margin-bottom:10px}
+
+
+.content{ width:1180px; margin:0 auto 10px;}
+
+
+.content_brita{ width:1180px; height:700px; margin:40px auto 0}
+.brita_mainnav{ padding-top:30px; height:80px; background:url(../img/brita_mainnnav_bg_icon.jpg) 0 0 no-repeat;}
+.brita_bar{ width:80px; height:25px; margin-top:15px; float:right}
+.brita_subnav{width:1180px; height:80px; float:left; border-top:3px solid #013a71;}
+.brita_subnav ul{float:left; margin-left:25px;}
+.brita_subnav ul li{display:inline; float:left; height:80px; margin-bottom:10px}
+.brita_subnav ul li a{display:inline-block; height:30px; line-height:30px; vertical-align:middle; font-size:28px; color:#013a71 !important; padding:12px 18px; text-decoration:none}
+.brita_subnav ul li.cli0 a{color: #639e64 !important; background:url(../img/brita_subnav_bg_icon.png) 0 0 no-repeat; background-position:top}
+.brita_subnav ul li.cli a{color: #639e64 !important; background:url(../img/brita_subnav_bg_icon.png) 0 0 no-repeat; background-position: top}
+#brita{margin-top:100px; position:absolute}
+*html #brita{margin-top:-10px; position:relative;}
+*+html #brita{margin-top:-10px; position:relative;}
+.brita_show{width:1180px; height:500px; overflow:hidden; border:1px solid #013a71; margin-top:30px;}
+.brita_show li{width:1180px; height:200px; margin-top:35px; margin-left:5px;}
+.brita_show li a{margin-left:10px;}
+.brita_hide{display:none; width:1180px; height:500px; overflow:hidden}
+.brita_show li em{ margin-left:100px;}
+.brita_show li abbr{ margin-left:100px;}
+.brita_show li address{width:200px; height:450px; margin-left:900px; margin-top:-420px; font-size:18px; color:#004b97;}
+.brita_show li bdo{margin-left:200px; margin-top:-25px; position:absolute;}
+
+.content_severin{ width:1180px; height:500px; margin:10px auto 0}
+.severin_mainnav{ padding-top:15px; height:35px; background:url(../img/severin_mainnnav_bg_icon.png) 0 0 no-repeat}
+.severin_bar{ width:80px; height:25px; margin-top:10px; float:right}
+.severin_subnav{width:1180px; height:45px; float:left; border-top:3px solid #0dc5c7;}
+.severin_subnav ul{float:left}
+.severin_subnav ul li{display:inline; float:left; height:30px; margin-bottom:10px}
+*html .severin_subnav ul li{margin-top:-1px;}
+.severin_subnav ul li a{display:inline-block; height:30px; line-height:30px; vertical-align:middle; font-size:18px; color:#525252 !important; padding:10px 15px; text-decoration:none}
+.severin_subnav ul li.cli0 a{color: #0dc5c7 !important; background:url(../img/severin_subnav_bg_icon.png) 0 0 no-repeat; background-position:top}
+.severin_subnav ul li.cli a{color: #0dc5c7 !important; background:url(../img/severin_subnav_bg_icon.png) 0 0 no-repeat; background-position:top}
+#severin{margin-top:80px; position:absolute}
+*html #severin{margin-top:-10px; position:relative}
+*+html #severin{margin-top:-10px; position:relative}
+.severin_show{ width:1180px; height:450px; overflow:hidden}
+.severin_hide{display:none; width:1180px; height:450px; overflow:hidden}
+
+.content_wmf{ width:1180px; height:500px; margin:10px auto 0}
+.wmf_mainnav{ padding-top:40px; height:35px; background:url(../img/wmf_bar_bg_icon.png) 0 0 no-repeat}
+.wmf_bar{ width:80px; height:25px; margin-top:10px; float:right}
+.wmf_subnav{width:1180px; height:45px; float:left; border-top:3px solid #d35450;}
+.wmf_subnav ul{float:left}
+.wmf_subnav ul li{display:inline; float:left; height:30px; margin-bottom:10px}
+*html .wmf_subnav ul li{margin-top:-1px;}
+.wmf_subnav ul li a{display:inline-block; height:30px; line-height:30px; vertical-align:middle; font-size:18px; color:#525252 !important; padding:10px 15px; text-decoration:none}
+.wmf_subnav ul li.cli0 a{color: #d35450 !important; background:url(../img/wmf_mainnav_bg_icon.png) 0 0 no-repeat; background-position:top}
+.wmf_subnav ul li.cli a{color: #d35450 !important; background:url(../img/wmf_mainnav_bg_icon.png) 0 0 no-repeat; background-position:top}
+#wmf{margin-top:80px; position:absolute}
+*html #wmf{margin-top:-10px; position:relative}
+*+html #wmf{margin-top:-10px; position:relative}
+.wmf_show{ width:1180px; height:450px; overflow:hidden}
+.wmf_hide{display:none; width:1180px; height:450px; overflow:hidden}
+
+
+.content_other{ width:1180px; height:500px; margin:10px auto 0}
+.other_mainnav{ padding-top:60px; height:35px; background:url(../img/other_bg.png) 0 20px no-repeat}
+.other_bar{ width:80px; height:25px; margin-top:10px; float:right}
+.other_subnav{width:1180px; height:45px; float:left; border-top:3px solid #ae6cbf;}
+.other_subnav ul{float:left}
+.other_subnav ul li{display:inline; float:left; height:30px; margin-bottom:10px}
+*html .other_subnav ul li{margin-top:-1px;}
+.other_subnav ul li a{display:inline-block; height:30px; line-height:30px; vertical-align:middle; font-size:18px; color:#525252 !important; padding:10px 15px; text-decoration:none}
+.other_subnav ul li.cli0 a{color: #ae6cbf !important; background:url(../img/other_subnav_bg_icon.png) 0 0 no-repeat; background-position:top}
+.other_subnav ul li.cli a{color: #ae6cbf !important; background:url(../img/other_subnav_bg_icon.png) 0 0 no-repeat; background-position:top}
+#other{margin-top:80px; position:absolute}
+*html #other{margin-top:-10px; position:relative}
+*+html #other{margin-top:-10px; position:relative}
+.other_show{ width:1180px; height:450px; overflow:hidden}
+.other_hide{display:none; width:1180px; height:450px; overflow:hidden}
+
+.content_glasslock{ width:1180px; height:500px; margin:0 auto 0}
+.glasslock_mainnav{ padding-top:30px; height:40px; background:url(../img/glasslock_bg.png.png) 0 0 no-repeat}
+.glasslock_bar{ width:80px; height:25px; margin-top:15px; float:right}
+.glasslock_subnav{width:1180px; height:45px; float:left;  border-top:3px solid #f7a735;}
+.glasslock_subnav ul{float:left}
+.glasslock_subnav ul li{display:inline; float:left; height:30px; margin-bottom:10px}
+*html .glasslock_subnav ul li{margin-top:-1px;}
+.glasslock_subnav ul li a{display:inline-block; height:30px; line-height:30px; vertical-align:middle; font-size:18px; color:#525252 !important; padding:10px 15px; text-decoration:none}
+.glasslock_subnav ul li.cli0 a{color:#f7a735 !important; background:url(../img/glasslock_subnav_bg_icon.png) 0 0 no-repeat; background-position:top}
+.glasslock_subnav ul li.cli a{color:#f7a735 !important; background:url(../img/glasslock_subnav_bg_icon.png) 0 0 no-repeat; background-position:top}
+#glasslock{margin-top:80px; position:absolute}
+*html #glasslock{margin-top:-10px; position:relative}
+*+html #glasslock{margin-top:-10px; position:relative}
+.glasslock_show{ width:1180px; height:450px; overflow:hidden}
+
+.glasslock_hide{display:none; width:1180px; height:450px; overflow:hidden}
+
